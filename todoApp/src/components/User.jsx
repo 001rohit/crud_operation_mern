@@ -52,7 +52,7 @@ const User = () => {
                         <td>{elem.email}</td>
                         <td>{elem.age}</td>
                         <td>
-                            <Link to={`/update/ ${elem._id}`}>
+                            <Link to={`/update/${elem._id}`}>
                             <button >update</button>
                             </Link>
                             <button onClick={()=>deleteUser(elem._id)}>delate</button>
